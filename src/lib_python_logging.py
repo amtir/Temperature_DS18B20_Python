@@ -1,4 +1,5 @@
 import logging
+import os
 import sys
 from logging.handlers import TimedRotatingFileHandler, RotatingFileHandler
 
@@ -18,7 +19,9 @@ CRITICAL	  A serious error, indicating that the program itself may be unable to 
 
 
 FORMATTER = logging.Formatter("%(asctime)s — %(name)s — %(levelname)s — %(filename)s — %(funcName)s — %(lineno)s  — %(threadName)s — %(message)s")
-LOG_FILE = "/home/pi/temperature-Sensors/logs/sensorsTemp.log"
+# Log file location (override with the TEMP_SENSORS_LOG_FILE environment variable)
+LOG_FILE = os.environ.get("TEMP_SENSORS_LOG_FILE",
+                          os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "logs", "sensorsTemp.log"))
 
 
 

@@ -104,27 +104,3 @@ while(True):
   #print("---------------------")
   
   time.sleep(1)
-
-'''
-
-pi@raspberrypi:~/temperature-Sensors $ sudo python3 cave_temp-sensors_projects.py 
-2019-01-22 03:09:11,429 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 67  — MainThread — Temperature1: 23.687[°C]
-2019-01-22 03:09:12,304 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 72  — MainThread — Temperature2: 23.312[°C]
-2019-01-22 03:09:13,184 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 77  — MainThread — Temperature3: 24.125[°C]
-2019-01-22 03:09:14,064 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 83  — MainThread — Temperature4: 23.125[°C]
-2019-01-22 03:09:15,985 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 67  — MainThread — Temperature1: 24.0[°C]
-2019-01-22 03:09:16,864 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 72  — MainThread — Temperature2: 23.25[°C]
-2019-01-22 03:09:17,744 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 77  — MainThread — Temperature3: 24.125[°C]
-2019-01-22 03:09:18,625 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 83  — MainThread — Temperature4: 23.312[°C]
-2019-01-22 03:09:20,544 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 67  — MainThread — Temperature1: 24.0[°C]
-2019-01-22 03:09:21,424 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 72  — MainThread — Temperature2: 23.312[°C]
-2019-01-22 03:09:22,304 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 77  — MainThread — Temperature3: 24.125[°C]
-2019-01-22 03:09:23,184 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 83  — MainThread — Temperature4: 23.312[°C]
-2019-01-22 03:09:25,105 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 67  — MainThread — Temperature1: 23.75[°C]
-2019-01-22 03:09:25,984 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 72  — MainThread — Temperature2: 23.375[°C]
-2019-01-22 03:09:26,864 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 77  — MainThread — Temperature3: 24.125[°C]
-2019-01-22 03:09:27,744 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 83  — MainThread — Temperature4: 23.187[°C]
-2019-01-22 03:09:29,664 — main-temp-sensor — DEBUG — cave_temp-sensors_projects.py — <module> — 67  — MainThread — Temperature1: 23.937[°C]
-
-
-'''
